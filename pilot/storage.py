@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from pilot.config import RUNS_DIR
-from pilot.requests import PlannedRequest
+from pilot.requests import PlannedRequest, artifact_stem
 
 
 def utc_now_iso() -> str:
@@ -21,12 +21,20 @@ def new_run_directory(base: Path | None = None) -> Path:
     return run_dir
 
 
+def request_filename(passage_id: str, repeat: int) -> str:
+    return f"{artifact_stem(passage_id, repeat)}_request.json"
+
+
+def response_filename(passage_id: str, repeat: int) -> str:
+    return f"{artifact_stem(passage_id, repeat)}_response.json"
+
+
 def request_path(run_dir: Path, planned: PlannedRequest) -> Path:
-    return run_dir / f"{planned.slug}_request.json"
+    return run_dir / request_filename(planned.passage_id, planned.repeat)
 
 
 def response_path(run_dir: Path, planned: PlannedRequest) -> Path:
-    return run_dir / f"{planned.slug}_response.json"
+    return run_dir / response_filename(planned.passage_id, planned.repeat)
 
 
 def failure_path(run_dir: Path, planned: PlannedRequest) -> Path:
@@ -149,13 +157,42 @@ def extract_response_fields(response: Any) -> tuple[str | None, str | None, dict
     }
 
 
+def _text_from_output_items(output: Any) -> str:
+    """Brief text from a Responses API `output` list. Skips reasoning items."""
+    parts: list[str] = []
+    for item in output or []:
+        if isinstance(item, dict):
+            if item.get("type") != "message":
+                continue
+            content = item.get("content") or []
+        else:
+            if getattr(item, "type", None) != "message":
+                continue
+            content = getattr(item, "content", []) or []
+        if isinstance(content, str):
+            parts.append(content)
+            continue
+        for block in content:
+            if isinstance(block, dict):
+                if block.get("type") == "output_text":
+                    parts.append(block.get("text") or "")
+            elif getattr(block, "type", None) == "output_text":
+                parts.append(getattr(block, "text", "") or "")
+    return "".join(parts)
+
+
 def extract_output_text(response: Any) -> str:
+    """Return generated brief text from a Responses object or saved response JSON.
+
+    Saved artifacts are JSON objects. `output_text` is a convenience field when
+    present; otherwise the brief is the `output_text` content of message items.
+    Reasoning items are not part of the brief.
+    """
+    if isinstance(response, dict):
+        direct = response.get("output_text")
+        if isinstance(direct, str) and direct.strip():
+            return direct
+        return _text_from_output_items(response.get("output"))
     if hasattr(response, "output_text") and response.output_text:
         return response.output_text
-    parts: list[str] = []
-    for item in getattr(response, "output", []) or []:
-        if getattr(item, "type", None) == "message":
-            for content in getattr(item, "content", []) or []:
-                if getattr(content, "type", None) == "output_text":
-                    parts.append(getattr(content, "text", "") or "")
-    return "".join(parts)
+    return _text_from_output_items(getattr(response, "output", None))

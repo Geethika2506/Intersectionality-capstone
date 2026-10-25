@@ -9,6 +9,10 @@ from pilot.config import (
 from pilot.passages import PassageBundle, load_all_passages
 
 
+def artifact_stem(passage_id: str, repeat: int) -> str:
+    return f"{passage_id}_repeat_{repeat:02d}"
+
+
 @dataclass(frozen=True)
 class PlannedRequest:
     passage_id: str
@@ -19,7 +23,7 @@ class PlannedRequest:
 
     @property
     def slug(self) -> str:
-        return f"{self.passage_id}_repeat_{self.repeat:02d}"
+        return artifact_stem(self.passage_id, self.repeat)
 
 
 def build_planned_requests(bundles: list[PassageBundle] | None = None) -> list[PlannedRequest]:

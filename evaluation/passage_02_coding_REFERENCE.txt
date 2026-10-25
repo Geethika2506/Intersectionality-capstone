@@ -1,3 +1,22 @@
-[PLACEHOLDER — reference only, not used in API requests]
+# Reference coding for passage_02
+# This file is not sent to the model.
+#
+# Paste your coding rows under the header at the bottom.
+# In a spreadsheet, use three columns named category, item_id, and reference_text.
+# Copy the rows and paste them here. Keep a tab between columns.
+#
+# category must be one of:
+#   social_position
+#   intersectional_relationship
+#   institutional_mechanism
+#
+# item_id is your code for that row, such as SP1. Each item_id must be unique in this file.
+# reference_text is the coded item.
+# Put passage 02 rows only in this file.
+#
+# Example of a row (this line is a comment; it is not used):
+# social_position	SP1	One coded item from your table
+#
+# You need at least one row for each of the three categories.
 
-Paste or attach your coded reference materials for passage 02 here (labels, memos, etc.).
+category	item_id	reference_text

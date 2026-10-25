@@ -4,6 +4,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DATA_DIR = REPO_ROOT / "data"
 PROMPTS_DIR = REPO_ROOT / "prompts"
+EVALUATION_DIR = REPO_ROOT / "evaluation"
 RUNS_DIR = REPO_ROOT / "runs"
 
 PASSAGE_IDS = ("passage_01", "passage_02")
