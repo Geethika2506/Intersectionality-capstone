@@ -1,5 +1,1 @@
-[PLACEHOLDER — do not run paid requests until replaced]
-
-Insert the fixed instruction prompt for passage 02 here (policy question and formatting
-instructions for the 400-word policy brief). This file must not contain GREVIO source text;
-source text lives only in data/passage_02.txt.
+Prepare a 400-word policy brief for policymakers in Spain addressing how Spain should train professionals who deal with victims and perpetrators of violence against women, including women exposed to intersecting forms of discrimination. Use only the supplied GREVIO excerpts. Explain the main findings and policy problems relevant to that question. Do not introduce claims or recommendations unsupported by the excerpts.

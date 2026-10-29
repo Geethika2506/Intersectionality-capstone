@@ -1,22 +1,18 @@
 # Reference coding for passage_02
-# This file is not sent to the model.
-#
-# Paste your coding rows under the header at the bottom.
-# In a spreadsheet, use three columns named category, item_id, and reference_text.
-# Copy the rows and paste them here. Keep a tab between columns.
-#
-# category must be one of:
-#   social_position
-#   intersectional_relationship
-#   institutional_mechanism
-#
-# item_id is your code for that row, such as SP1. Each item_id must be unique in this file.
-# reference_text is the coded item.
-# Put passage 02 rows only in this file.
-#
-# Example of a row (this line is a comment; it is not used):
-# social_position	SP1	One coded item from your table
-#
-# You need at least one row for each of the three categories.
+# Spain — training of professionals (Article 15). Not sent to the model.
+# Units 3 and 4.
+# U3-ER is stored as supplied. That sentence describes health and social care, which is unit 4.
 
 category	item_id	reference_text
+social_position	U3-SP	Women victims of gender-based violence exposed to intersecting discrimination, including migrant women, Roma women, transgender and women with disabilities.
+intersectional_relationship	U3-IR	Gender-based violence intersects with discrimination related to migration, ethnicity or disability. NGOs report that police officers often lack understanding of the specific difficulties these women face.
+institutional_mechanism	U3-IM	Despite improvements in police training and specialised units, gaps remain in officers.
+policy_problem	U3-CP	Gaps in police preparedness to respond to these women’s reports. Reporting is also described as particularly challenging in rural areas, but the passage does not establish that training gaps alone cause these difficulties.
+responsible_actor	U3-RA	Spanish authorities responsible for law-enforcement training and the relevant police forces.
+essential_relationship	U3-ER	Health and social care professionals lack awareness of intersecting discrimination, while NGOs with relevant expertise have limited involvement in training and report scarce funding for providing it.
+social_position	U4-SP	NGOs working with women experiencing violence, including migrant women, Roma women, women with disabilities and LBTI women.
+intersectional_relationship	U4-IR	Health and social care professionals reportedly lack awareness of intersecting discrimination, while organisations working with the affected women possess relevant experience.
+institutional_mechanism	U4-IM	Limited intersectional awareness, limited involvement of relevant NGOs in professional training, and scarce funding reported by NGOs providing training.
+policy_problem	U4-CP	Gaps exist in professional knowledge and detection skills. The passage does not establish that limited NGO funding causes all these gaps.
+responsible_actor	U4-RA	Spanish authorities organising and funding health and social care training, including the Ministry of Health; NGOs as potential training contributors.
+essential_relationship	U4-ER	Health and social care professionals lack intersectional awareness, while relevant NGOs have limited involvement in training and report scarce funding for providing it.

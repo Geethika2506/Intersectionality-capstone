@@ -24,16 +24,27 @@ from pilot.storage import (
 )
 from pilot.word_count import count_words
 
-CATEGORIES = (
+REQUIRED_CATEGORIES = (
     "social_position",
     "intersectional_relationship",
     "institutional_mechanism",
+)
+
+CATEGORIES = REQUIRED_CATEGORIES + (
+    "policy_problem",
+    "responsible_actor",
+    "participation_monitoring",
+    "essential_relationship",
 )
 
 CATEGORY_LABELS = {
     "social_position": "Social position",
     "intersectional_relationship": "Intersectional relationship",
     "institutional_mechanism": "Institutional mechanism",
+    "policy_problem": "Policy problem",
+    "responsible_actor": "Responsible actor",
+    "participation_monitoring": "Participation or monitoring",
+    "essential_relationship": "Essential relationship",
 }
 
 RETENTION_LABELS = {
@@ -55,8 +66,18 @@ INSTRUCTIONS = (
 
 _CATEGORY_ALIASES = {
     "social position": "social_position",
+    "social position or population": "social_position",
     "intersectional relationship": "intersectional_relationship",
     "institutional mechanism": "institutional_mechanism",
+    "institutional or structural mechanism": "institutional_mechanism",
+    "consequence or policy problem": "policy_problem",
+    "policy problem": "policy_problem",
+    "responsible actor or level": "responsible_actor",
+    "responsible actor": "responsible_actor",
+    "participation data or monitoring": "participation_monitoring",
+    "participation or monitoring": "participation_monitoring",
+    "essential relationship": "essential_relationship",
+    "essential relationship to preserve": "essential_relationship",
 }
 
 _HEADER_ALIASES = {
@@ -101,15 +122,16 @@ class ReferenceItem:
 
 
 def normalize_category(raw: str) -> str:
-    key = " ".join(raw.strip().lower().replace("_", " ").replace("-", " ").split())
+    key = " ".join(
+        raw.strip().lower().replace("_", " ").replace("-", " ").replace(",", " ").split()
+    )
     if key in _CATEGORY_ALIASES:
         return _CATEGORY_ALIASES[key]
     if key.replace(" ", "_") in CATEGORIES:
         return key.replace(" ", "_")
     raise ValueError(
         "unknown category "
-        f"{raw!r} (use social_position, intersectional_relationship, "
-        "or institutional_mechanism)"
+        f"{raw!r} (use {', '.join(CATEGORIES)})"
     )
 
 
@@ -347,7 +369,9 @@ def load_references(
             )
             continue
         present = {item.category for item in items}
-        missing = [CATEGORY_LABELS[category] for category in CATEGORIES if category not in present]
+        missing = [
+            CATEGORY_LABELS[category] for category in REQUIRED_CATEGORIES if category not in present
+        ]
         if missing:
             errors.append(
                 f"{path.name} is missing reference items for: {', '.join(missing)}"
@@ -800,7 +824,12 @@ def render_summary(
             ]
         )
         grouped_ratios: dict[str, list[float]] = {}
-        for category in (*CATEGORIES, None):
+        present_categories = [
+            category
+            for category in CATEGORIES
+            if any(item.category == category for item in references[passage_id])
+        ]
+        for category in (*present_categories, None):
             score_columns = _scores_for(reviews, passage_id, category)
             rendered = []
             ratios = []
@@ -819,7 +848,7 @@ def render_summary(
                 grouped_ratios[category] = ratios
 
         lines.append("")
-        for category in CATEGORIES:
+        for category in present_categories:
             lines.append(_variation_sentence(CATEGORY_LABELS[category], grouped_ratios[category]))
         lines.append("")
         lines.append(

@@ -1,22 +1,17 @@
 # Reference coding for passage_01
-# This file is not sent to the model.
-#
-# Paste your coding rows under the header at the bottom.
-# In a spreadsheet, use three columns named category, item_id, and reference_text.
-# Copy the rows and paste them here. Keep a tab between columns.
-#
-# category must be one of:
-#   social_position
-#   intersectional_relationship
-#   institutional_mechanism
-#
-# item_id is your code for that row, such as SP1. Each item_id must be unique in this file.
-# reference_text is the coded item.
-# Put passage 01 rows only in this file.
-#
-# Example of a row (this line is a comment; it is not used):
-# social_position	SP1	One coded item from your table
-#
-# You need at least one row for each of the three categories.
+# Spain — comprehensive and co-ordinated policies (Article 7). Not sent to the model.
+# Units 1 and 2. General support services (units 5 and 6) are not part of this passage.
 
 category	item_id	reference_text
+social_position	U1-SP	Women victims of gender-based violence exposed to intersecting discrimination — migrant women, women with disabilities, rural women, women in prostitution, and LBTI women (par. 26).
+intersectional_relationship	U1-IR	Women’s experiences of violence and support needs involve multiple, intersecting forms of discrimination. Addressing only one dimension fails to respond to the complexity of individual cases.
+institutional_mechanism	U1-IM	Incomplete implementation of formally intersectional policies, and professionals’ tendency to respond to a single factor of discrimination.
+policy_problem	U1-CP	Substantial obstacles to accessing protection and support persist despite policy commitments.
+responsible_actor	U1-RA	Spanish authorities across national, regional, and local levels; professionals responding to individual cases.
+essential_relationship	U1-ER	Policies recognize intersectionality, but implementation and professional responses can remain focused on single factors, leaving intersecting needs insufficiently addressed. The distinction between policy design or adoption and implementation must be preserved, as must the mechanism. A brief saying only that Spain should pay more attention to vulnerable women loses both.
+social_position	U2-SP	Women victims of gender-based violence, particularly those exposed to intersecting discrimination; NGOs working directly with them.
+intersectional_relationship	U2-IR	Organisations working with women exposed to intersecting discrimination possess relevant experience, yet report particular difficulties participating in policy processes.
+institutional_mechanism	U2-IM	Lack of institutionalised channels for regular NGO involvement in policymaking and evaluation.
+responsible_actor	U2-RA	Spanish authorities responsible for these policy processes; relevant NGOs as participants. No precise participation procedure or lead agency is prescribed.
+participation_monitoring	U2-PM	Participation is central: regular NGO involvement in policy development and in monitoring and evaluation.
+essential_relationship	U2-ER	Missing institutional channels limit the involvement of organisations with relevant experience, particularly those working with women exposed to intersecting discrimination.

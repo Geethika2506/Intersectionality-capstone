@@ -1,0 +1,112 @@
+{
+  "instructions": "Compare this brief with each reference item. Set retention to 0 (omitted or distorted), 1 (partly preserved), or 2 (preserved). For a score of 1 or 2, paste an excerpt from this brief and set supported_by_passage to true or false: true means the GREVIO passage supports the claim. To record a claim the brief introduces that is not in the reference coding, add an object with claim and excerpt to additional_unsupported_claims. Do not edit passage_id, repeat, output_file, item_id, category, or reference_text.",
+  "passage_id": "passage_02",
+  "repeat": 2,
+  "output_file": "passage_02_repeat_02_response.json",
+  "brief_word_count": 401,
+  "brief_text": "Spain should turn expanding professional training into a systematic response covering all forms of violence against women. Article 15 requires initial and ongoing training on prevention, detection, equality, victims’ rights and needs, and preventing secondary victimisation. GREVIO recognises legislative progress and new training initiatives, but provision remains uneven across professions and regions, predominantly focused on intimate partner violence, and insufficiently evaluated.\n\nImplementation gaps undermine these advances. Training mandated by Law 10/2022 on sexual freedom had not yet been rolled out. Judicial participation has increased, but ongoing training generally remains optional. Prison staff lack specific training on violence against women, including those working with perpetrators. Despite specialist police expertise, gaps persist among officers, particularly in rural areas. Health professionals’ detection skills remain limited, especially for female genital mutilation and forced marriage. Social welfare training is brief; specialist courses are voluntary and often outside working hours.\n\nIntersectional discrimination needs explicit attention. GREVIO reports limited understanding of barriers facing migrant, refugee and Roma women, women with disabilities, and other groups. Police need practical skills for receiving their reports; judicial, healthcare and victim assistance staff also show knowledge gaps. Specialist services report shortcomings concerning sexual violence, digital violence, female genital mutilation and forced marriage, alongside insufficient attention to women facing intersecting discrimination.\n\n**Policy priorities** are to strengthen systematic initial and ongoing training across justice, policing, healthcare, social welfare and education, including professionals dealing with perpetrators. Training should centre victims’ human rights, safety, individual needs and empowerment, using victim-centred, trauma-informed approaches. Cover all Convention forms of violence, gender stereotypes and specific needs associated with intersecting discrimination. Accompany training with standardised protocols for identification, support and referral, and evaluate it regularly. Draw on women’s rights organisations and specialist service providers; their involvement is currently limited, and NGOs providing training report scarce funding.\n\n**Judicial training requires particular urgency.** GREVIO considers optional, ad hoc courses inadequate for complex issues such as trauma-related behaviour and children’s exposure to domestic violence. Ensure mandatory, in-depth training, especially for judges deciding custody and visitation. They must understand domestic violence as involving unequal power relations, not merely conflict between spouses, and account for harm to children when deciding cases or considering mediation. Address post-separation risks, sexual violence, and inappropriate reliance on the so-called parental alienation syndrome. Strengthen training for forensic experts, supervised visitation staff and family co-ordinators, whose understanding of violence and its effects on children also shows serious gaps identified by GREVIO’s evaluation.",
+  "retention_scale": {
+    "0": "omitted or distorted",
+    "1": "partly preserved",
+    "2": "preserved"
+  },
+  "items": [
+    {
+      "item_id": "U3-SP",
+      "category": "social_position",
+      "reference_text": "Women victims of gender-based violence exposed to intersecting discrimination, including migrant women, Roma women, transgender and women with disabilities.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Gender-based violence intersects with discrimination related to migration, ethnicity or disability. NGOs report that police officers often lack understanding of the specific difficulties these women face.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Despite improvements in police training and specialised units, gaps remain in officers.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-CP",
+      "category": "policy_problem",
+      "reference_text": "Gaps in police preparedness to respond to these women’s reports. Reporting is also described as particularly challenging in rural areas, but the passage does not establish that training gaps alone cause these difficulties.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities responsible for law-enforcement training and the relevant police forces.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-ER",
+      "category": "essential_relationship",
+      "reference_text": "Health and social care professionals lack awareness of intersecting discrimination, while NGOs with relevant expertise have limited involvement in training and report scarce funding for providing it.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-SP",
+      "category": "social_position",
+      "reference_text": "NGOs working with women experiencing violence, including migrant women, Roma women, women with disabilities and LBTI women.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Health and social care professionals reportedly lack awareness of intersecting discrimination, while organisations working with the affected women possess relevant experience.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Limited intersectional awareness, limited involvement of relevant NGOs in professional training, and scarce funding reported by NGOs providing training.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-CP",
+      "category": "policy_problem",
+      "reference_text": "Gaps exist in professional knowledge and detection skills. The passage does not establish that limited NGO funding causes all these gaps.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities organising and funding health and social care training, including the Ministry of Health; NGOs as potential training contributors.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-ER",
+      "category": "essential_relationship",
+      "reference_text": "Health and social care professionals lack intersectional awareness, while relevant NGOs have limited involvement in training and report scarce funding for providing it.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    }
+  ],
+  "additional_unsupported_claims": []
+}

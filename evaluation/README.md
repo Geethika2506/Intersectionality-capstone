@@ -7,7 +7,7 @@ Paste each passage’s coding table into:
 - `passage_01_coding_REFERENCE.txt`
 - `passage_02_coding_REFERENCE.txt`
 
-Both files end with a header row. Columns are `category`, `item_id`, and `reference_text`, separated by a tab. `category` is one of `social_position`, `intersectional_relationship`, or `institutional_mechanism`. Item ids must be unique inside a file. Keep each passage in its own file.
+Both files end with a header row. Columns are `category`, `item_id`, and `reference_text`, separated by a tab. Each passage needs at least one `social_position`, one `intersectional_relationship`, and one `institutional_mechanism`. A row may also use `policy_problem`, `responsible_actor`, `participation_monitoring`, or `essential_relationship`. Item ids must be unique inside a file. Keep each passage in its own file.
 
 Rows can also be grouped under headings:
 

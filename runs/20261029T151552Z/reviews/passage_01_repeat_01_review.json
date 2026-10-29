@@ -1,0 +1,112 @@
+{
+  "instructions": "Compare this brief with each reference item. Set retention to 0 (omitted or distorted), 1 (partly preserved), or 2 (preserved). For a score of 1 or 2, paste an excerpt from this brief and set supported_by_passage to true or false: true means the GREVIO passage supports the claim. To record a claim the brief introduces that is not in the reference coding, add an object with claim and excerpt to additional_unsupported_claims. Do not edit passage_id, repeat, output_file, item_id, category, or reference_text.",
+  "passage_id": "passage_01",
+  "repeat": 1,
+  "output_file": "passage_01_repeat_01_response.json",
+  "brief_word_count": 408,
+  "brief_text": "# Spain: Consistent, co-ordinated protection for women facing intersecting discrimination\n\n## Policy objective\n\nSpain should translate its extensive policy framework into consistent protection and support across national, regional and local levels. Article 7 of the Istanbul Convention requires comprehensive, co-ordinated measures centred on victims’ rights and responsive to the specific circumstances and barriers facing women exposed to multiple forms of discrimination.\n\n## Findings\n\nGREVIO welcomes Spain’s broader coverage of violence beyond intimate partner violence and its stronger recognition of intersectionality. The Multi-Annual Joint Plan (2023–2027) provides a national–regional co-operation framework, while its reference catalogue aims to guarantee minimum services. Strategies addressing Roma inclusion, disability, children and homelessness also address violence against women.\n\nHowever, implementation remains unequal and incomplete. Migrant women and women with disabilities are disproportionately represented among victims, including killings; rural women are also disproportionately affected. Professionals often focus on one discrimination factor rather than its interaction with others, undermining responses to individual needs.\n\nCo-ordination gaps persist across government levels and between autonomous communities. Civil society representatives identify unclear implementation priorities for the State Pact as contributing to regional disparities. The 19 Co-ordination Units against Violence against Women need further resources. Evaluation remains insufficiently systematic, thorough and independent, while NGOs, particularly those supporting women facing intersecting discrimination, lack institutionalised channels for regular involvement.\n\n## Priorities for implementation\n\n- **Implement existing commitments for women facing intersecting discrimination.** Ensure that protection and support respond to multiple, interacting barriers, not isolated characteristics. This includes recognising the circumstances of migrant women, women with disabilities, women in prostitution and LBTI women, for whom GREVIO highlights particularly pronounced shortcomings in professionals’ understanding of intersectionality.\n\n- **Strengthen territorial co-ordination.** Use the Joint Plan and reference catalogue to support consistent implementation and minimum service provision. Clarify State Pact implementation priorities and provide the co-ordination units with resources needed to perform their role effectively.\n\n- **Evaluate impact regularly using predefined indicators and clear stakeholder responsibilities.** Build on the State Strategy’s evaluation arrangements and the Ministry of Equality’s computerised system, while addressing the continuing need for systematic, thorough and independent evaluation. Use reliable data to identify implementation difficulties and inform policy making.\n\n- **Institutionalise regular NGO participation** in policy making, monitoring and evaluation, including organisations working directly with women exposed to intersecting discrimination. Their expertise and experience with victims can help authorities identify barriers and assess whether policies meet specific needs. Effective co-operation and responses grounded in intersecting discrimination are essential to building women’s and girls’ trust.",
+  "retention_scale": {
+    "0": "omitted or distorted",
+    "1": "partly preserved",
+    "2": "preserved"
+  },
+  "items": [
+    {
+      "item_id": "U1-SP",
+      "category": "social_position",
+      "reference_text": "Women victims of gender-based violence exposed to intersecting discrimination — migrant women, women with disabilities, rural women, women in prostitution, and LBTI women (par. 26).",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U1-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Women’s experiences of violence and support needs involve multiple, intersecting forms of discrimination. Addressing only one dimension fails to respond to the complexity of individual cases.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U1-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Incomplete implementation of formally intersectional policies, and professionals’ tendency to respond to a single factor of discrimination.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U1-CP",
+      "category": "policy_problem",
+      "reference_text": "Substantial obstacles to accessing protection and support persist despite policy commitments.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U1-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities across national, regional, and local levels; professionals responding to individual cases.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U1-ER",
+      "category": "essential_relationship",
+      "reference_text": "Policies recognize intersectionality, but implementation and professional responses can remain focused on single factors, leaving intersecting needs insufficiently addressed. The distinction between policy design or adoption and implementation must be preserved, as must the mechanism. A brief saying only that Spain should pay more attention to vulnerable women loses both.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U2-SP",
+      "category": "social_position",
+      "reference_text": "Women victims of gender-based violence, particularly those exposed to intersecting discrimination; NGOs working directly with them.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U2-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Organisations working with women exposed to intersecting discrimination possess relevant experience, yet report particular difficulties participating in policy processes.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U2-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Lack of institutionalised channels for regular NGO involvement in policymaking and evaluation.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U2-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities responsible for these policy processes; relevant NGOs as participants. No precise participation procedure or lead agency is prescribed.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U2-PM",
+      "category": "participation_monitoring",
+      "reference_text": "Participation is central: regular NGO involvement in policy development and in monitoring and evaluation.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U2-ER",
+      "category": "essential_relationship",
+      "reference_text": "Missing institutional channels limit the involvement of organisations with relevant experience, particularly those working with women exposed to intersecting discrimination.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    }
+  ],
+  "additional_unsupported_claims": []
+}

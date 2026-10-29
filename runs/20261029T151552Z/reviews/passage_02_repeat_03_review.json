@@ -1,0 +1,112 @@
+{
+  "instructions": "Compare this brief with each reference item. Set retention to 0 (omitted or distorted), 1 (partly preserved), or 2 (preserved). For a score of 1 or 2, paste an excerpt from this brief and set supported_by_passage to true or false: true means the GREVIO passage supports the claim. To record a claim the brief introduces that is not in the reference coding, add an object with claim and excerpt to additional_unsupported_claims. Do not edit passage_id, repeat, output_file, item_id, category, or reference_text.",
+  "passage_id": "passage_02",
+  "repeat": 3,
+  "output_file": "passage_02_repeat_03_response.json",
+  "brief_word_count": 401,
+  "brief_text": "## Spain: training professionals to respond to violence against women\n\n### Policy challenge\nSpain should move from uneven training provision towards systematic initial and continuing training for all professionals dealing with victims and perpetrators. Article 15 requires coverage of prevention, detection, gender equality, victims’ needs and rights, and prevention of secondary victimisation. Training must address all Convention-covered forms of violence, not primarily intimate partner violence.\n\n### Main findings\nGREVIO welcomes expanded judicial training, compulsory gender-based violence training for new civil servants, specialist police expertise, and new legislative obligations. However, sexual violence training mandated by Law 10/2022 had not yet been rolled out. Nationwide coverage remains unclear, awareness of protocols is sometimes low, and fragmented initiatives lack systematic evaluation.\n\nJudicial in-service training remains largely optional. Judges outside specialised courts are not systematically trained, and many lack victim-centred, trauma-informed approaches. Gaps concern sexual violence, children’s exposure to domestic violence, post-separation risks and unchecked use of “parental alienation syndrome”. Training for penal administration staff is limited and lacks specific violence-against-women content, including for staff working with perpetrators. Serious gaps also affect supervised-visits staff and family co-ordinators.\n\nPolice training needs strengthening, particularly in rural areas and in responding practically to women facing intersecting discrimination. Healthcare detection skills remain limited, especially regarding female genital mutilation and forced marriage. Social welfare training is brief, with voluntary continuing courses reportedly often outside working hours. Specialist services also report gaps concerning sexual violence, digital violence and intersecting discrimination.\n\n### Priorities for policymakers\n**Establish comprehensive, evaluated training.** Strengthen training across justice, policing, healthcare, social welfare and education, covering victims and perpetrators and all relevant violence. Pair it with standardised identification, support and referral protocols, and evaluate it regularly.\n\n**Make specialist judicial learning mandatory and substantive.** Ad hoc optional courses are insufficient. Ensure mandatory training for judges handling custody and visitation on children’s exposure to violence and domestic violence’s dynamics, including unequal power relations rather than treating abuse as ordinary conflict. Address safety when deciding cases or considering mediation.\n\n**Embed intersectional, victim-centred practice.** Centre human rights, safety, individual needs, empowerment and prevention of secondary victimisation. Address barriers affecting migrant, refugee and Roma women, women with disabilities and LBTI women, using trauma-informed approaches.\n\n**Draw on specialist expertise.** Involve women’s rights organisations and specialist service providers, including community-based organisations. GREVIO identifies limited opportunities for NGO participation and scarce funding for those providing training; their expertise can strengthen understanding of victims’ experiences and needs.",
+  "retention_scale": {
+    "0": "omitted or distorted",
+    "1": "partly preserved",
+    "2": "preserved"
+  },
+  "items": [
+    {
+      "item_id": "U3-SP",
+      "category": "social_position",
+      "reference_text": "Women victims of gender-based violence exposed to intersecting discrimination, including migrant women, Roma women, transgender and women with disabilities.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Gender-based violence intersects with discrimination related to migration, ethnicity or disability. NGOs report that police officers often lack understanding of the specific difficulties these women face.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Despite improvements in police training and specialised units, gaps remain in officers.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-CP",
+      "category": "policy_problem",
+      "reference_text": "Gaps in police preparedness to respond to these women’s reports. Reporting is also described as particularly challenging in rural areas, but the passage does not establish that training gaps alone cause these difficulties.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities responsible for law-enforcement training and the relevant police forces.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-ER",
+      "category": "essential_relationship",
+      "reference_text": "Health and social care professionals lack awareness of intersecting discrimination, while NGOs with relevant expertise have limited involvement in training and report scarce funding for providing it.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-SP",
+      "category": "social_position",
+      "reference_text": "NGOs working with women experiencing violence, including migrant women, Roma women, women with disabilities and LBTI women.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Health and social care professionals reportedly lack awareness of intersecting discrimination, while organisations working with the affected women possess relevant experience.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Limited intersectional awareness, limited involvement of relevant NGOs in professional training, and scarce funding reported by NGOs providing training.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-CP",
+      "category": "policy_problem",
+      "reference_text": "Gaps exist in professional knowledge and detection skills. The passage does not establish that limited NGO funding causes all these gaps.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities organising and funding health and social care training, including the Ministry of Health; NGOs as potential training contributors.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-ER",
+      "category": "essential_relationship",
+      "reference_text": "Health and social care professionals lack intersectional awareness, while relevant NGOs have limited involvement in training and report scarce funding for providing it.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    }
+  ],
+  "additional_unsupported_claims": []
+}

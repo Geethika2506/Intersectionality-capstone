@@ -1,0 +1,108 @@
+{
+  "id": "resp_07488d23c6309489006ae363b75fd887d29c8e018eac706d7f",
+  "access_programs": null,
+  "created_at": 1793287095.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_07488d23c6309489006ae363b931fc87d29ab896b4cda13586",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq42PMY-F2vKS0L2tox4OP3tkzE0EYGZL4BbEBxusecBeaVKQv3NmC8i6pCc-logaEh8eaj1-ywZ8U8Ees60sxw8187UR0dFA4YAQlCLVVLws4KFluhuBtnT13L43e2tPg8454pqB6mBjuRGtAMnA6uHDui7Nw20hie1lzBjGk8IB1OQvnCPRVEaq2mZ53-woGIOA4fycSj7XYPKwRcpdwlUCsKAPmYXono5ooU0CIhmw9nNAn9lMEqc9G2K3ZMVzJecYUCBz3ADbtumsMZjaKyRiN817s0UC1y4kc1gNIGnGa--DRnyp4bo2LWiBEOJnPOLm6Db2pAVrda1K_KhSzXhKr5DtM2ltVbo_dm4gWXeEHOL7fU8r-vRyebYtnDYNPPR-7lMDp6HcMQ8ywLAjpzsUpNOARvsTf5LqyQ71fA69MLrUcjnhDfYZmezglVEvB7XaHACkrvmQv0E4lM7O8AKndgRdJTRbBCsS61eCilJphu5fGAnjk2mriLmHeEJNAAAcLIYV3cp6F5oH8yH2NYhlatAGz1i_79uAwlQfARH4bKga-EiVKtiEnYghR5bx9YPZ8ruKFhK6MJnjLF65poX1jM4JtOQAx5wF_fmMkClWwnoGNVKeDg4jLMwHAvxiNjzn8nY-_uiZDGYb0SPZwz6A5fu7Qim0Y-YmzrQBH_MenUquR_8UQuaXQ21TDFq4JMKLnKJ6ylX0PPZx1K2jtDvk7nh_tvelpsWqpXAbnMoQIKr14lcmXPwMf7hCkHQ5W-1b6aCRh2ncNlgmMBVZi0WmXUek0f_E-U42QgbA3HTuUxvfW1SkqzyOii8-ql8pca40YzO7V0a_YY0tg4it0NldWSoHqpjhCmA6mU7RoTVQ-abbME6goQ4u2u73TU1SzoplQRcCzk41bCGAcUIuQOX65V6nEmC_9xYqVCkfPcUI7KnoVf1lnsf2N8T3mO9QL7Pk371fLyVTbXL6trzbF6Awv9ZbQ6N4af22da7vopT3CROtT7CzWI7NJI-tNN34z_e6rkaVelbco9ar1gtzCs97yUgOPvgpLC0sogw5rp-4UNTHRF32_fxrgmFb2RIoplablkRh1D-oHLs6sksZVrshvtswy_AewwO43YfJHkRk6a6RHzbQplCuoWunhVUh0yp1X4GAVeD65Nqxw2xQwJSR6XWVNzvQPFABt9YColdfKabzctzh8bsPM19Hd3eMMlXjenFk1d_13YdITt2jU4t8YCD3owyioZI44psytm78sC2rXlDj7lCbBY9qAO3sRzBZEZREqq98PbHh-7uKWgg7FrGV_zI4DF_hvC1PLE7gO5aQ9tAlI8Io1-7B_C0uYeTplUmaH6JL_TW5Fhs6gvQhXaEN8YRscJP3JhiJzb3HF48W5ZQTor-f5AbXVn_l6BJsu9_ok0BUL8SglREW0PW0LO8rfLlcHX_5Qr573nXCuhhQXWqsS3Odt14BeigroxZfBIN0mdy0ZjiRfWme1asHD0RpZEsNAvV91DIB1cWe7h5mxlqsKL1NnnKh9OMXruVc_eFw_CJymxUHfrdJmKVlMWqXPAVF-tt4x87NS6Lih9wqb_lVMt_9ve8IBj0jSbpizMdXzu7B6s94y4M7AZjYGvmgGAck8bl4iWGDKqp3QpuWpTwJdWHEOMpr6MGWAWS2gaqVxBDoi5Fu5K7rhNY23Rqk7G3ZBB60c-1Sfw8aaBtsNZeOedOoC-NK-ojgDnxu9XxrzjwWCG-Y3cNP-j8Gjj-wZDDVijpqW8NSDU65We9Ih88GGeB0-RLRqIHf9BnhN2oqoDRSB310lUaLIbaa3Ml5f33N6o23_2HBZHRIjMdCyCPLKe0J2LaFANV5mO7tflob7NRpg5NvzGM1mlGxfHd_JvkTGSIoR88OGQJ8fo6I9XXKzAMVopigbM2k9FHNk16oiIXP2bXIpKa-VharvbvDaoLopVLk9x2yfw-nsVTNWYpz_0EY5ydyr-rtAcKVLc7-VmwZcId6gOgnK9I6DVhI6QcXS8kMJSaGAmtaFZNMbelRMpkPehTbNL0m0BD10eZ8jQxx7K0wzd9pgpWdZ61X5F07rd7UfuP2NwlVphSw81UM8x41VBvo83ofHkZWPQuHiPwh976QMWoL456b_Vqeh3Vx46t9f0gx0sQet8XkICpP7zqE1miylkbE6UV--uTf-NbGQr6ZklUxYP_A2QmEh8NO23d8ODYzmFSBHPcBrMClqSuE_B0YPN_AHL7AoLBm5Rw2WrNeYxelxPAGgI1HEAMmP1uVCGzFUV4wCea_yg_van8q2gbrf-d6HdW29ajfPR2iDS9-FbOfi56UNeCMfiDXju_9zNcHyA0skmo-G0dtUekA-mvHyV9gEo26XR_lPvxBfN03rn0bK-GcGBvxKYYOsGOG4-M5MJB-dtWAwgCTEsRZBJd8cQRIiNkdN7J7JrQ2pJh2zEe5iNU43y8KTMR9yfG4zbinFIhM6REVLlY4wzGqgy9yOECsqdpJGdps3MQBx1SQH0j9-Xr30dd8WorLeruI0FVletqZCWOWFzJ1nCQhLdTPxXEY-r7NG-ET1SFc3Dmt4x2Zw8EUS8l4DSFseXlYqNAJXrCDFtZoYFPmK5XmPboN9C6L4N9Pi4RUGBqB2mDayf3yNSJf4Jx-jjB1cS9lJRYyPR14nR_ubZzYXgbchPbmPcjElTNiIHsxHWpvkSGZ2w9OVf1dIY7-ZGF5CQTzUFstmcwXWDREy2TCnBcB9gRP-ECM3rrNTbmunMGlWZ2vNH1hetJDBOogWgVyfteWUgQiUA0qJcW8OsoHHBJeHYcvVXBlyvk-Fp3tm9QRglWO6a9on01MBB4ilYKDHMiJHysUkccSg1IylsAhI89CdJXHecUnnEe7vxdnis5VPDa931Ru4bb9uQPf7SE_0xDX_QTuxkROyro4-k5g8k-Iq76rVXzIwiLBcJcJfvG5RNovyLmdto15_vgYckx3Oqb1J4okL1wHDd_VppBpwzd7pnJMc7cTQQq8qsS5m13JI7QUz5vYZhWAbzv8083m7oVnceYoBsT1ZcoA6x69hldUuha8SCKfQv0wFXgRJCDp-Cny3ZesgfBM4tR5oOXg_QxRmH3jy3OBlsyvwc6eHDf4Ljpt9sHMPXD25k4uRP85cymSbqqPab3WQhZtxgalVyYsFis77i4KdyOGLjZyOqHsy-qc0UifBp5wFP0jr0-RmppIQEDOcolR-D_4dFuLbUb1u7CZceBWh0uAnwxTtIDK-XQWFNjnm69IUhypnmjd1PQGfOQ6Uhz1c_8YEOczbxTj2LZh5jJ2Jj2T-WGXq5kU-ZNHjggt8hqnNx109F75Xhxc_D7GJ99T805Fr4EYjYLoRhPd1H_lSySCvosAB40YI1SrqcekX_9uUTQAOtSmfEkgzp8rCehT5e8sJQJnFFdLaCgQsSdBKBD3hdeISJz01--aLbHRvPsQIEzeM60iyXz8e-Kmju9un44FTTQscFq2SfOJZDPbeXNgGWrqS288UIeEf0ZrYtzqcK-bFNjQ97TEDz7Sfx0UFgvgeRsTHSzSff16N0mruclCEFrnK-nODiKcELYCz3hxU",
+      "status": null
+    },
+    {
+      "id": "msg_07488d23c6309489006ae363bede1087d282d77d0961ea012c",
+      "content": [
+        {
+          "annotations": [],
+          "text": "## Spain: training professionals to respond to violence against women\n\n### Policy challenge\nSpain should move from uneven training provision towards systematic initial and continuing training for all professionals dealing with victims and perpetrators. Article 15 requires coverage of prevention, detection, gender equality, victims’ needs and rights, and prevention of secondary victimisation. Training must address all Convention-covered forms of violence, not primarily intimate partner violence.\n\n### Main findings\nGREVIO welcomes expanded judicial training, compulsory gender-based violence training for new civil servants, specialist police expertise, and new legislative obligations. However, sexual violence training mandated by Law 10/2022 had not yet been rolled out. Nationwide coverage remains unclear, awareness of protocols is sometimes low, and fragmented initiatives lack systematic evaluation.\n\nJudicial in-service training remains largely optional. Judges outside specialised courts are not systematically trained, and many lack victim-centred, trauma-informed approaches. Gaps concern sexual violence, children’s exposure to domestic violence, post-separation risks and unchecked use of “parental alienation syndrome”. Training for penal administration staff is limited and lacks specific violence-against-women content, including for staff working with perpetrators. Serious gaps also affect supervised-visits staff and family co-ordinators.\n\nPolice training needs strengthening, particularly in rural areas and in responding practically to women facing intersecting discrimination. Healthcare detection skills remain limited, especially regarding female genital mutilation and forced marriage. Social welfare training is brief, with voluntary continuing courses reportedly often outside working hours. Specialist services also report gaps concerning sexual violence, digital violence and intersecting discrimination.\n\n### Priorities for policymakers\n**Establish comprehensive, evaluated training.** Strengthen training across justice, policing, healthcare, social welfare and education, covering victims and perpetrators and all relevant violence. Pair it with standardised identification, support and referral protocols, and evaluate it regularly.\n\n**Make specialist judicial learning mandatory and substantive.** Ad hoc optional courses are insufficient. Ensure mandatory training for judges handling custody and visitation on children’s exposure to violence and domestic violence’s dynamics, including unequal power relations rather than treating abuse as ordinary conflict. Address safety when deciding cases or considering mediation.\n\n**Embed intersectional, victim-centred practice.** Centre human rights, safety, individual needs, empowerment and prevention of secondary victimisation. Address barriers affecting migrant, refugee and Roma women, women with disabilities and LBTI women, using trauma-informed approaches.\n\n**Draw on specialist expertise.** Involve women’s rights organisations and specialist service providers, including community-based organisations. GREVIO identifies limited opportunities for NGO participation and scarce funding for those providing training; their expertise can strengthen understanding of victims’ experiences and needs.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1793287116.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3354,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3351
+    },
+    "output_tokens": 707,
+    "output_tokens_details": {
+      "reasoning_tokens": 167
+    },
+    "total_tokens": 4061
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

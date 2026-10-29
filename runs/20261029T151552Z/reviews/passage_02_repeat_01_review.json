@@ -1,0 +1,112 @@
+{
+  "instructions": "Compare this brief with each reference item. Set retention to 0 (omitted or distorted), 1 (partly preserved), or 2 (preserved). For a score of 1 or 2, paste an excerpt from this brief and set supported_by_passage to true or false: true means the GREVIO passage supports the claim. To record a claim the brief introduces that is not in the reference coding, add an object with claim and excerpt to additional_unsupported_claims. Do not edit passage_id, repeat, output_file, item_id, category, or reference_text.",
+  "passage_id": "passage_02",
+  "repeat": 1,
+  "output_file": "passage_02_repeat_01_response.json",
+  "brief_word_count": 406,
+  "brief_text": "# Policy brief: Training professionals responding to violence against women\n\n## Main findings\n\nSpain has expanded professional training through legislation, the State Strategy against Male Violence (2022–2025), and initiatives involving government, judicial bodies and police. However, GREVIO finds persistent disparities between professions, regions and forms of violence. Training has concentrated on intimate partner violence; the sexual-violence training mandated by Law 10/2022 had not yet been rolled out.\n\nJudicial training has increased, but continuing training generally remains optional. Judges outside specialised courts are not systematically trained. Reported shortcomings include limited understanding of trauma, intersectional discrimination, children’s exposure to domestic violence and post-separation risks. Custody and visitation decisions can consequently overlook safety concerns. Training of supervised-visits staff and family co-ordinators also has serious gaps.\n\nSpecialised police units demonstrate substantial expertise, but broader police training needs strengthening, particularly in rural areas. Organisations report insufficient practical skills for responding to migrant and Roma women, women with disabilities and others facing intersecting discrimination. Whether existing police training is trauma-informed remains unclear.\n\nHealthcare professionals’ detection skills remain limited, particularly concerning female genital mutilation and forced marriage. Social welfare training is brief, with voluntary continuing courses reportedly often outside working hours. Penal administration staff, including those working with perpetrators, lack specific violence-against-women training. Specialist services also report gaps concerning sexual violence, digital violence and intersecting discrimination.\n\nFragmented provision and insufficient systematic evaluation make training coverage, compulsory status and quality difficult to assess.\n\n## Policy priorities\n\n**Establish systematic initial and continuing training** for professionals dealing with victims and perpetrators across justice, policing, healthcare, social welfare and education. Cover every form of violence under the Istanbul Convention, prevention and detection, gender equality, victims’ rights and needs, and prevention of secondary victimisation.\n\n**Make training victim-centred and trauma-informed**, prioritising human rights, safety, individual needs and empowerment. Address the specific needs of women facing intersecting discrimination, including migrant, refugee, Roma, disabled and LBTI women.\n\n**Ensure mandatory, in-depth judicial training.** For judges handling custody and visitation, specifically address children’s exposure to violence and its relevance to decisions and mediation. Explain domestic violence’s dynamics and unequal power relations, rather than treating it as ordinary conflict between spouses.\n\n**Pair training with standardised protocols** for identification, support and referral, and regularly evaluate provision. Strengthen professionals’ awareness and application of protocols.\n\n**Draw on women’s rights organisations and specialist services**, including experienced community-based organisations, whose involvement remains limited. Their expertise can strengthen understanding of victims’ challenges and needs.\n\n*Source: supplied GREVIO excerpts, paragraphs 62–75.*",
+  "retention_scale": {
+    "0": "omitted or distorted",
+    "1": "partly preserved",
+    "2": "preserved"
+  },
+  "items": [
+    {
+      "item_id": "U3-SP",
+      "category": "social_position",
+      "reference_text": "Women victims of gender-based violence exposed to intersecting discrimination, including migrant women, Roma women, transgender and women with disabilities.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Gender-based violence intersects with discrimination related to migration, ethnicity or disability. NGOs report that police officers often lack understanding of the specific difficulties these women face.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Despite improvements in police training and specialised units, gaps remain in officers.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-CP",
+      "category": "policy_problem",
+      "reference_text": "Gaps in police preparedness to respond to these women’s reports. Reporting is also described as particularly challenging in rural areas, but the passage does not establish that training gaps alone cause these difficulties.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities responsible for law-enforcement training and the relevant police forces.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U3-ER",
+      "category": "essential_relationship",
+      "reference_text": "Health and social care professionals lack awareness of intersecting discrimination, while NGOs with relevant expertise have limited involvement in training and report scarce funding for providing it.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-SP",
+      "category": "social_position",
+      "reference_text": "NGOs working with women experiencing violence, including migrant women, Roma women, women with disabilities and LBTI women.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-IR",
+      "category": "intersectional_relationship",
+      "reference_text": "Health and social care professionals reportedly lack awareness of intersecting discrimination, while organisations working with the affected women possess relevant experience.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-IM",
+      "category": "institutional_mechanism",
+      "reference_text": "Limited intersectional awareness, limited involvement of relevant NGOs in professional training, and scarce funding reported by NGOs providing training.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-CP",
+      "category": "policy_problem",
+      "reference_text": "Gaps exist in professional knowledge and detection skills. The passage does not establish that limited NGO funding causes all these gaps.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-RA",
+      "category": "responsible_actor",
+      "reference_text": "Spanish authorities organising and funding health and social care training, including the Ministry of Health; NGOs as potential training contributors.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    },
+    {
+      "item_id": "U4-ER",
+      "category": "essential_relationship",
+      "reference_text": "Health and social care professionals lack intersectional awareness, while relevant NGOs have limited involvement in training and report scarce funding for providing it.",
+      "retention": null,
+      "excerpt": "",
+      "supported_by_passage": null
+    }
+  ],
+  "additional_unsupported_claims": []
+}

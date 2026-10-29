@@ -1,0 +1,108 @@
+{
+  "id": "resp_0b1d0731d0829b65006ae36382a49887d29ac9dd77a113f687",
+  "access_programs": null,
+  "created_at": 1793287042.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6.1-sol",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b1d0731d0829b65006ae36384ce8c87d28ad26bffaed24856",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABq42OTwOx19jH08OrVBm-pDXo24xiQa7dP17Ab6DAMpRNkyl9YuAaJU8dNQ-JbLRmVCVImkQNtfgievKUuc_HOxGIWjF2lH0V7hZqG7tAHCXLvVqRr24X4sGFPpVRWlKuHoSGXSIS2l5P8seEI97RKwGCi_u_AMDMQ1XuZnxI7JrTX5_tKctUs6swLvHpWsl9eJyE459hEODiDUNv9CnGMpg8n8QlDKZ8KYwaxhycZSQ5xI7JY8mQJ3MA5aKUMU7s1w7Kzkjuvnqy1m5sNOKhpEd0I2LEhCJQu2OvURovd3uu6NttRxZk0En1cXGzqwKE5vdb_s0l78QqOzsS-PzJvtcu7gWTGC6R9OeFEIyp3FIjZT3d7Yly-xO04p8nMGDSqDBdzrxZtBQ_SGPQTOXoFflcVdaCYT8l3r_LwfdCYMKzDuAumW1KSk7oRzcu-NVt7EhMstKwID7RUTQyMu5JALq503dI8ZZWmULObjY1Z575kdrwrezQnZqXzUl_c9QVc8EYxdvCiUGBoFDbYqKA4ikHvycvXww-yg-Qsh-L27Ye5N17OHQaKiy4rh6spkheaqW73dOWi0jKvEsJhIgZc5Nw2xdq9chQqYychX6Ow9sdjxMuRLsfGIBZtovBPJcW22gosYn4TziT9hO8Ket4LbdX5K2C8Wz0VEGZAx5uArIswTRL1fY3IxG-XXTaBfwmtfd5r7ZEy0pdYgJnjeH5qTUVyK8RhhaE75-PER5-t9Jh3GTA2shsvSTwP_lyj9-rzrUInHCRWndPGoC6FZKeyQRCqUBJKLlKf1v6sSiB8g8kQyOB_z8SqDQevxcwOi_MuwpaeoleJg1QGT9V2O4H3GYUHm4dgk_NJvUEaTJtEPGu5AlnaJiJHJ0W53M69ojvvz1gtVCRPd1wIs7EV3xcY_OPcrdKNBjSVXGeMukauVyNcB0ApDFLq23wC3jFR9DD9UamP-HYXThBvfTnojdY3EgD0KAtYG3Watiz25z4nPPpJmEELXrt4Bl9zxhd0jJ7yqyHcUbqPgKHRWV7S-veOCUpVJ-pabFNvjeR3BpvQk62MTjpuUS-fQ5o8rGpInU5v40Ua1SGTdc2h0lvKw2TjEYtEHT9hW3NmKEu3rAEPUkJGvQ1XCexN5547BZqcVTn6I5uANMS7vxXfNS96dOwHKGxhpqBKemDk_L4R6XGaw6nOMZiH0sBeHTw0OMCKy01HVCdfffEpHYpLQRRcYy95GGIN0noQyzFTRaZZCVZaPBm5UodPBVID0wn_eZDCSJ5duObWpHfToVpuhrI36jY6wCCkqgTQchZ08RAGz8fUvk50a7tVpKi6HwFubhSvJsHRyv6A5m0d1k0muIsqnd28Th_4bbPOHBVHEJZGm0dGElsR-s8o1QThluvT5j9J_D_l2DKjWtgzx62WQIFgAFbNr8O_Ksa4beSFQHV88L4doDcshPHJYKDKd0CS2-tTZcbkRSwiG_Dijl_tlDLdr_n0p9YrSzV6IgllBSUueVaRWZ_4B3ze00SPdCAPHnjQzCFreUnlxX2UX86Y5n_UEpTyfdSFTwo1XAuIhX7y_ePhwO-qihmjxv8Ol-ot6eGJgTKzi9pRZgaInRZ5evcbQr5kYkly9FbZerMRfQTUKPS0xh5ULt1MPDnArSr4Gat1ytCnGg0AelYmgpZA28B7dx0pRrpzKLpoyjr_DgYEnjXeL8eb5bxLY07Z9dDpEtvq_qudJq5K-6UHnjKhC_Mg4XgDMErLu8Fo1z_TkjfB6UXI1oUp1JTWiBfhJT4wAJxu65Td_WcS6iqCKKuBTyJiS7i60NqOYNcPjkfmK9h74S-iY494EfW9m9J6dRj4a4OWX7cpiCL6HiHdzCtx2zTfzaB91Ehc7_N-ZJBT7O0O1T5-lYoeYW-LaCFZoWVm9HRY-xxGcT9-PqsQXjonghORNetjPSjXyB3JmRqiFNivg5XMcJEqdkedQioQqD37X2vHiNnPmMQIZuuyl761JNAFkpmgtYKH4voiEPrUkgIZ2MRGMun2eWY6e1ioNwlX1QlYRp_v1g5m0Hcwkopxe_S_RoBgUd7ijhXNZa2j8eYfqon1-FvN7EMgfgsS323T-67mRAyFjAhDrH2DyPdNFxK0iTtNi0bJsf0WflR6XPJh4vnKSAWB0VoG1OqpmFMccBWTddiN5j4hXFwNqwZCeW9f14HoQaqxzx50_jAXmj4zxwz2EWdE8dfW0zLZlmSdcU4yJiQz8mzwXy_UWZy2iHwkm9iV1mJSxCJ8YH8DbCTs9OFVfdQC01fQychliUZYws6TIn3wny2UQAB8GGoPFHl3v7_IJxe2GxpPA0YgCMtXFjlII0z3zKiknXhJBIIOoc46Inv3FAbHtYBTLZhfkQ7G7Z_boTCBeIlYroTM1Y3uUg1vUJafz87F47yXklf8rsSOvxuYagXTpbKEdnSgxN3Vus5BhWV6-2n4ji1dd46IBMy9H5Rm5G7hBipEmKq22kcSL_0kXTWGQFfBAp1dx8BCtqAn79L23yLKIgH5z6uU13HPBN8jj52eiESEB5zMA2LfL7iMyj2uMeZ9YBiVlnfLQxXKaUoM-5hCb4OxtHuNKNeI_MuiF7pfmmaL8zbR2G4vrHRtfBin",
+      "status": null
+    },
+    {
+      "id": "msg_0b1d0731d0829b65006ae36387b40087d295ed4e2482b37871",
+      "content": [
+        {
+          "annotations": [],
+          "text": "# Policy brief: Training professionals responding to violence against women\n\n## Main findings\n\nSpain has expanded professional training through legislation, the State Strategy against Male Violence (2022–2025), and initiatives involving government, judicial bodies and police. However, GREVIO finds persistent disparities between professions, regions and forms of violence. Training has concentrated on intimate partner violence; the sexual-violence training mandated by Law 10/2022 had not yet been rolled out.\n\nJudicial training has increased, but continuing training generally remains optional. Judges outside specialised courts are not systematically trained. Reported shortcomings include limited understanding of trauma, intersectional discrimination, children’s exposure to domestic violence and post-separation risks. Custody and visitation decisions can consequently overlook safety concerns. Training of supervised-visits staff and family co-ordinators also has serious gaps.\n\nSpecialised police units demonstrate substantial expertise, but broader police training needs strengthening, particularly in rural areas. Organisations report insufficient practical skills for responding to migrant and Roma women, women with disabilities and others facing intersecting discrimination. Whether existing police training is trauma-informed remains unclear.\n\nHealthcare professionals’ detection skills remain limited, particularly concerning female genital mutilation and forced marriage. Social welfare training is brief, with voluntary continuing courses reportedly often outside working hours. Penal administration staff, including those working with perpetrators, lack specific violence-against-women training. Specialist services also report gaps concerning sexual violence, digital violence and intersecting discrimination.\n\nFragmented provision and insufficient systematic evaluation make training coverage, compulsory status and quality difficult to assess.\n\n## Policy priorities\n\n**Establish systematic initial and continuing training** for professionals dealing with victims and perpetrators across justice, policing, healthcare, social welfare and education. Cover every form of violence under the Istanbul Convention, prevention and detection, gender equality, victims’ rights and needs, and prevention of secondary victimisation.\n\n**Make training victim-centred and trauma-informed**, prioritising human rights, safety, individual needs and empowerment. Address the specific needs of women facing intersecting discrimination, including migrant, refugee, Roma, disabled and LBTI women.\n\n**Ensure mandatory, in-depth judicial training.** For judges handling custody and visitation, specifically address children’s exposure to violence and its relevance to decisions and mediation. Explain domestic violence’s dynamics and unequal power relations, rather than treating it as ordinary conflict between spouses.\n\n**Pair training with standardised protocols** for identification, support and referral, and regularly evaluate provision. Strengthen professionals’ awareness and application of protocols.\n\n**Draw on women’s rights organisations and specialist services**, including experienced community-based organisations, whose involvement remains limited. Their expertise can strengthen understanding of victims’ challenges and needs.\n\n*Source: supplied GREVIO excerpts, paragraphs 62–75.*",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1793287059.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "medium",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3354,
+    "input_tokens_details": {
+      "cache_write_tokens": 3351,
+      "cached_tokens": 0
+    },
+    "output_tokens": 650,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 4004
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

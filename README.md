@@ -125,8 +125,14 @@ Do the same for passage 02 in `evaluation/passage_02_coding_REFERENCE.txt`.
 - `social_position`
 - `intersectional_relationship`
 - `institutional_mechanism`
+- `policy_problem`
+- `responsible_actor`
+- `participation_monitoring`
+- `essential_relationship`
 
-`item_id` is your own code for that row, such as `SP1`. Use each id only once in the file. `reference_text` is the coded item. Each passage needs at least one row in each category. Keep passage 02 rows out of the passage 01 file.
+Each passage needs at least one row in each of the first three categories. The other four are used when that element is in the coding.
+
+`item_id` is your own code for that row, such as `U1-SP`. Use each id only once in the file. `reference_text` is the coded item. Keep passage 02 rows out of the passage 01 file.
 
 A pasted row looks like this (the gaps are tabs):
 

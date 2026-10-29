@@ -383,7 +383,15 @@ def test_rejects_unknown_and_missing_output_files(tmp_path: Path):
     assert "unknown output file passage_02_repeat_03_response.txt" in str(named_unknown.value)
 
 
-def test_shipped_reference_files_have_no_coded_items():
-    for passage_id in PASSAGE_IDS:
+def test_shipped_reference_files_match_the_two_selected_passages():
+    expected = {
+        "passage_01": {"U1-SP", "U1-ER", "U2-SP", "U2-PM", "U2-ER"},
+        "passage_02": {"U3-SP", "U3-ER", "U4-SP", "U4-ER"},
+    }
+    for passage_id, required_ids in expected.items():
         items = parse_reference_file(reference_path(EVALUATION_DIR, passage_id), passage_id)
-        assert items == []
+        ids = {item.item_id for item in items}
+        categories = {item.category for item in items}
+        assert required_ids <= ids
+        assert {"social_position", "intersectional_relationship", "institutional_mechanism"} <= categories
+        assert len(ids) == len(items)
